@@ -1,1 +1,20 @@
-﻿name,latitude,longitude,land_water,formality,waste_type,date_observed,other
+﻿id,name,country,latitude,longitude,land_water,formality,waste_type,date_observed,other
+ 1,Adana,Turkey,37.03277778,35.16111111,1,0,plastic,03012021,Greenpeace
+ 2,Adana,Turkey,36.95833333,35.26277778,1,0,plastic,03012021,Greenpeace
+ 3,Adana,Turkey,37.05111111,35.18750000,1,0,plastic,03012021,Greenpeace
+ 4,Adana,Turkey,36.68166667,35.06694444,1,0,plastic,03012021,Greenpeace
+ 5,Karahan,Turkey,37.06527778,35.18694444,1,0,plastic,03012021,Greenpeace
+ 6,Karahan,Turkey,37.05111111,35.18750000,1,0,plastic,03012021,Greenpeace
+ 7,Karahan,Turkey,37.04861111,35.21138889,1,0,plastic,03012021,Greenpeace
+ 8,Kuyumcular,Turkey,37.03277778,35.16138889,1,0,plastic,03012021,Greenpeace
+ 9,Yenidam,Turkey,36.95833333,35.26277778,1,0,plastic,03012021,Greenpeace
+ 10,Yenidam,Turkey,36.95944444,35.26361111,1,0,plastic,03012021,Greenpeace
+ 11,Dedepinari,Turkey,36.97222222,35.44611111,1,0,plastic,03012021,Greenpeace
+ 12,Pulau Indah Klang,Malaysia,2.98419,101.34565,1,0,plastic,08012019,Greenpeace
+ 13,Pulau Indah Klang,Malaysia,2.98400,101.34690,1,0,plastic,08012019,Greenpeace
+ 14,Pulau Indah Klang,Malaysia,2.98510,101.34610,1,0,plastic,08012019,Greenpeace
+ 15,Pulau Indah Klang,Malaysia,2.98427,101.34664,1,0,plastic,08012019,Greenpeace
+ 16,Pulau Indah Klang,Malaysia,2.98111,101.35111,1,0,plastic,08012019,Greenpeace
+ 17,Kapar Klang,Malaysia,3.16195,101.43837,1,0,plastic,08012019,Greenpeace
+ 18,Kampung Sri Cheeding Kuala Langat,Malaysia,2.89250,101.56389,1,0,plastic,08012019,Greenpeace
+ 19,Sungai Muda,Malaysia,5.54277,100.58487,1,0,plastic,08012019,Greenpeace

@@ -19,4 +19,5 @@ Description here.
 - **formality**: Whether the waste site is formal (=1) or informal (=0). 
 - **waste_type**: Primary type of waste found at the site.
 - **date_observed**: Date the waste site was observed.
-- **other**: Any other relevant information or comments including source of observation
+- **observer**: Organization who verified site.
+- **notes***: Any other relevant information or comments including source of observation

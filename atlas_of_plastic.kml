@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>atlas_of_plastic.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Atlas of Plastic Waste</name>
+		<open>1</open>
+		<Placemark>
+			<name>Pulau Indah Klang</name>
+			<description>Malaysia, factory, plastics, 2014, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.3463219739437,2.982055671413798,0 101.34631447489,2.982045119223915,0 101.3462995469898,2.982024114107716,0 101.346292231272,2.982017352023653,0 101.3462703748485,2.981997150283471,0 101.3462521728787,2.981976759833086,0 101.3462342481278,2.981963758246962,0 101.3462269888109,2.981953495022759,0 101.3462090419415,2.981933374974817,0 101.3461983647532,2.981923517002482,0 101.3461981111599,2.981909177409494,0 101.3462082859726,2.981893966534083,0 101.3462220383662,2.98188561037448,0 101.3462393989948,2.981884062001023,0 101.3462498153624,2.981883133005746,0 101.3462673764998,2.981888683440761,0 101.3462814952508,2.981894551895797,0 101.3462922669889,2.98190433256198,0 101.3462996936318,2.981918058973311,0 101.3463072691245,2.981935456248584,0 101.3463113792273,2.981953236566846,0 101.346315510653,2.981971109060214,0 101.3463195363466,2.981985410613686,0 101.3463199180756,2.981996412282681,0 101.3463240975602,2.982014508576015,0 101.346324748873,2.982033016283304,0 101.3463254037414,2.982051620930383,0 101.3463257982747,2.982062830473354,0 101.3463219739437,2.982055671413798,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pulau Indah Klang</name>
+			<description>Malaysia, factory, plastics, 2015, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.345010820154,2.984032982103158,0 101.344907029529,2.983909417478871,0 101.3449197732432,2.983774090493726,0 101.3451061569076,2.983862189116861,0 101.3452076196239,2.983985788676651,0 101.3453541430887,2.983835736078027,0 101.3454733511885,2.983900315444651,0 101.3450716409932,2.984259534620116,0 101.3449656635082,2.98419024676125,0 101.345010820154,2.984032982103158,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pulau Indah Klang</name>
+			<description>Malaysia, factory, plastics, 2015, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.3450539740254,2.984942801202562,0 101.344743572561,2.984721388611216,0 101.3445105637087,2.984383354885762,0 101.3452459944848,2.984864113473214,0 101.3450539740254,2.984942801202562,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pulau Indah Klang</name>
+			<description>Malaysia, factory, plastics, 2015, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.3491833059371,2.981794550706588,0 101.3488818452105,2.981385081638217,0 101.3491168969439,2.981474064957035,0 101.3493028298286,2.981708097492143,0 101.3491833059371,2.981794550706588,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pulau Indah Klang</name>
+			<description>Malaysia, factory, plastics, 2017, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.3450801708946,2.984069756422854,0 101.344858438174,2.983900526433874,0 101.3447899020689,2.983660002399025,0 101.3451247664128,2.983873055690272,0 101.3450801708946,2.984069756422854,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pulau Indah Klang</name>
+			<description>Malaysia, factory, plastics, 2017, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.3457511185925,2.984307873839139,0 101.345686444425,2.98418391738618,0 101.3460436729517,2.9839600843124,0 101.3461868282441,2.983873949172719,0 101.3461742021166,2.984008924273345,0 101.3457511185925,2.984307873839139,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pulau Indah Klang</name>
+			<description>Malaysia, factory, plastics, 2014, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.3463451956658,2.982108484232961,0 101.3460815151073,2.981769441809909,0 101.3461294964053,2.981647947583929,0 101.3463822949128,2.982036303489635,0 101.3463451956658,2.982108484232961,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pulau Indah Klang</name>
+			<description>Malaysia, factory, plastics, 2018, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.344899336014,2.984288307862426,0 101.3448696800134,2.984251213486832,0 101.344996383693,2.984099145868027,0 101.3449769422558,2.983931165323727,0 101.3450685903325,2.983984242140888,0 101.3450924514516,2.984108892897749,0 101.344899336014,2.984288307862426,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pulau Indah Klang</name>
+			<description>Malaysia, factory, plastics, 2018, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.3472987625373,2.983460658819411,0 101.3468491936991,2.982785873764662,0 101.3469062461741,2.982741547888208,0 101.3473829926269,2.983385670949029,0 101.3472987625373,2.983460658819411,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pulau Indah Klang</name>
+			<description>Malaysia, factory, plastics, 2020, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.3450242046332,2.984184631066475,0 101.3448144014361,2.983773127902685,0 101.3451825210777,2.984039566328589,0 101.3450242046332,2.984184631066475,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kampung Sri Cheeding Kuala Langat</name>
+			<description>Malaysia, informal, plastics, 2017, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.5638067760947,2.892533184706727,0 101.5635738972388,2.892061736709099,0 101.5637551222943,2.89210611045019,0 101.5638051793291,2.892129552993972,0 101.5639408129159,2.892031836793676,0 101.563837526531,2.892208032577706,0 101.5638150819788,2.892263039428824,0 101.5638665917578,2.892467541455011,0 101.5638067760947,2.892533184706727,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kampung Sri Cheeding Kuala Langat</name>
+			<description>Malaysia, informal, plastics, 2018, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.5636237946823,2.892210143275333,0 101.5636361344687,2.892108508126605,0 101.563740388268,2.892205696791469,0 101.5637899508469,2.892156835473978,0 101.5638244418901,2.892186483794185,0 101.563779343273,2.892299771194069,0 101.5638235294065,2.892397024940881,0 101.5637492656854,2.892488574067911,0 101.5636237946823,2.892210143275333,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kampung Sri Cheeding Kuala Langat</name>
+			<description>Malaysia, informal, plastics, 2019, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.5636422959798,2.89212036131113,0 101.5637742990835,2.892066527351732,0 101.5638228929432,2.892025468509432,0 101.5638703595835,2.892063342404957,0 101.5639872723802,2.891989200859461,0 101.5640026371609,2.892018090103357,0 101.5638698375552,2.892199517766664,0 101.5638440811163,2.892278715095594,0 101.5638929299004,2.892360024449766,0 101.5639500633889,2.892474974924663,0 101.5638913508352,2.892568793278369,0 101.5636422959798,2.89212036131113,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kapar Klang</name>
+			<description>Malaysia, factory, plastics, 2018, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.4385010416648,3.163117205106924,0 101.4382915318534,3.162932421808323,0 101.4384654168121,3.162754484068705,0 101.4386043144055,3.162929922378789,0 101.4388390208795,3.162996258331166,0 101.4388491867698,3.163186918847661,0 101.4394694989971,3.163291679786528,0 101.4394608741172,3.163693588419766,0 101.438732080469,3.163670069679611,0 101.438765466432,3.163290407709737,0 101.4386955756364,3.163187408829355,0 101.438805727631,3.163167975650226,0 101.4385010416648,3.163117205106924,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kapar Klang</name>
+			<description>Malaysia, factory, plastics, 2014, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.4389956664578,3.162881026500036,0 101.4387087033282,3.162841653236077,0 101.4387969617292,3.162273317660732,0 101.4390272771894,3.162304906938652,0 101.4389956664578,3.162881026500036,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kapar Klang</name>
+			<description>Malaysia, factory, plastics, 2015, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.4389914316403,3.162887778389031,0 101.4386594383241,3.162850434101841,0 101.4387392340433,3.162314610816396,0 101.438910305382,3.162333699660859,0 101.4389335414955,3.16220258020732,0 101.4390988351515,3.162098926737464,0 101.4392576458691,3.162079987319325,0 101.4393110993379,3.162238319509569,0 101.4391444230671,3.162220167838586,0 101.4390853986013,3.162244913790839,0 101.4389914316403,3.162887778389031,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kapar Klang</name>
+			<description>Malaysia, factory, plastics, 2016, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.4388885047154,3.163539857659494,0 101.4389218085908,3.163184552824481,0 101.4386991710013,3.163046769760784,0 101.4387468095593,3.162755024827721,0 101.4389848362424,3.16206724443541,0 101.4394941394806,3.162044062755614,0 101.4393654228483,3.162253100182023,0 101.4390633306419,3.162246345630557,0 101.439010268786,3.162872649706953,0 101.4388393074786,3.162949391393368,0 101.4388419779356,3.163102752623884,0 101.4394610278081,3.163190191811378,0 101.4393951054949,3.163611964806701,0 101.4388885047154,3.163539857659494,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Sungai Muda</name>
+			<description>Malaysia, informal, plastics, 2020, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.5827462156688,5.542527734675367,0 100.5827277625518,5.542151435560437,0 100.5833511559729,5.542013814888236,0 100.5835589399444,5.542564813688259,0 100.5840238633604,5.54230160812793,0 100.5837151657756,5.541539731694587,0 100.5840932301506,5.541645654868288,0 100.5841532585371,5.542220646946305,0 100.5842968578112,5.542691850308593,0 100.5840026875778,5.542778939097674,0 100.5836011708253,5.542623066088186,0 100.5827462156688,5.542527734675367,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Sungai Muda</name>
+			<description>Malaysia, informal, plastics, 2015, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.5832645591064,5.542495453431612,0 100.5835578215841,5.54234792873754,0 100.5839788725202,5.542532963594264,0 100.5842945709683,5.542573444801208,0 100.5845183431537,5.542497701032809,0 100.5846250674688,5.542607349852704,0 100.5840053969691,5.543030472571087,0 100.5832645591064,5.542495453431612,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Sungai Muda</name>
+			<description>Malaysia, informal, plastics, 2016, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.582846115986,5.542990253271077,0 100.5826862288206,5.542316309927338,0 100.5832862299543,5.542090020803222,0 100.5837879538597,5.542703614966171,0 100.5843252486217,5.542652041489208,0 100.5843180573411,5.542469810798927,0 100.584385239027,5.542259400596861,0 100.5845424646471,5.542335821755166,0 100.5845200659807,5.542808196504764,0 100.5841485939071,5.542994998051016,0 100.5836077603808,5.542753075153063,0 100.582846115986,5.542990253271077,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Sungai Muda</name>
+			<description>Malaysia, informal, plastics, 2017, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.5831882303803,5.542655461316641,0 100.5835587043208,5.542435863457747,0 100.5840663982054,5.542591958123894,0 100.5845583748831,5.542299144942543,0 100.5845961728169,5.542403174202245,0 100.5843023205975,5.542883575954808,0 100.5831882303803,5.542655461316641,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Sungai Muda</name>
+			<description>Malaysia, informal, plastics, 2018, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.5843380874719,5.542133871316411,0 100.5842980963534,5.542745455076006,0 100.5836222407229,5.542543505535799,0 100.583467927781,5.542224987859895,0 100.583771331032,5.542522322764878,0 100.5839399874377,5.542507764572224,0 100.5841649657519,5.542563912955332,0 100.5841709690899,5.542127676103501,0 100.5842721645906,5.541863825343817,0 100.584552782395,5.54220072463188,0 100.5843380874719,5.542133871316411,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Sungai Muda</name>
+			<description>Malaysia, informal, plastics, 2019, Greenpeace</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.5827159588131,5.542415046803391,0 100.5827177688489,5.542409352178215,0 100.5827498892398,5.542170764914598,0 100.5833941485752,5.542011107246691,0 100.5836804054203,5.542681633584368,0 100.5840079255076,5.542580957812424,0 100.5840664785193,5.54233859301309,0 100.5837194151539,5.541539737547258,0 100.5842079052522,5.541718480784573,0 100.5844910073804,5.542129499852109,0 100.5844790373017,5.542680037875934,0 100.5842546269412,5.542772731534114,0 100.5836213104515,5.54271860955205,0 100.5832992254092,5.542820479351167,0 100.5831385797216,5.542482087227532,0 100.5827159588131,5.542415046803391,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bantar Gebang</name>
+			<visibility>0</visibility>
+			<description>Indonesia, city, mixed, 2014, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							106.9942127557663,-6.343817447034646,0 106.9924891844,-6.346076967720803,0 106.992931163645,-6.34778250508765,0 106.9937430889481,-6.348133442090889,0 106.9938960415233,-6.349045056202322,0 106.9984676619066,-6.351628334605254,0 107.0002892653306,-6.348075540067616,0 106.999924450992,-6.347057647906431,0 107.0003011776961,-6.346081244171651,0 106.999095564329,-6.345599570974092,0 106.999295095101,-6.34492396555142,0 106.9986678762372,-6.34408598602873,0 106.9991442813429,-6.343048455516599,0 107.0006298077208,-6.343262961036093,0 107.0008659203098,-6.342679783730174,0 106.9983632248162,-6.341800774503747,0 106.9976858277656,-6.343004036148536,0 106.9974334331174,-6.342449691431531,0 106.9966834377426,-6.343145050120831,0 106.9958562638603,-6.34304344012132,0 106.9942127557663,-6.343817447034646,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bantar Gebang</name>
+			<open>1</open>
+			<description>Indonesia, city, mixed, 2015, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							106.9942127557663,-6.343817447034646,0 106.9924891844,-6.346076967720803,0 106.992931163645,-6.34778250508765,0 106.9937430889481,-6.348133442090889,0 106.9938960415233,-6.349045056202322,0 106.9984676619066,-6.351628334605254,0 107.0002892653306,-6.348075540067616,0 106.999924450992,-6.347057647906431,0 107.0003011776961,-6.346081244171651,0 106.999095564329,-6.345599570974092,0 106.999295095101,-6.34492396555142,0 106.9986678762372,-6.34408598602873,0 106.9991442813429,-6.343048455516599,0 107.0006298077208,-6.343262961036093,0 107.0008659203098,-6.342679783730174,0 106.9983632248162,-6.341800774503747,0 106.9976858277656,-6.343004036148536,0 106.9974334331174,-6.342449691431531,0 106.9966834377426,-6.343145050120831,0 106.9958562638603,-6.34304344012132,0 106.9942127557663,-6.343817447034646,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bantar Gebang</name>
+			<open>1</open>
+			<description>Indonesia, city, mixed, 2016, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							106.9942127557663,-6.343817447034646,0 106.9924891844,-6.346076967720803,0 106.992931163645,-6.34778250508765,0 106.9937430889481,-6.348133442090889,0 106.9938960415233,-6.349045056202322,0 106.9984676619066,-6.351628334605254,0 107.0002892653306,-6.348075540067616,0 106.999924450992,-6.347057647906431,0 107.0003011776961,-6.346081244171651,0 106.999095564329,-6.345599570974092,0 106.999295095101,-6.34492396555142,0 106.9986678762372,-6.34408598602873,0 106.9991442813429,-6.343048455516599,0 107.0006298077208,-6.343262961036093,0 107.0008659203098,-6.342679783730174,0 106.9983632248162,-6.341800774503747,0 106.9976858277656,-6.343004036148536,0 106.9974334331174,-6.342449691431531,0 106.9966834377426,-6.343145050120831,0 106.9958562638603,-6.34304344012132,0 106.9942127557663,-6.343817447034646,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bantar Gebang</name>
+			<open>1</open>
+			<description>Indonesia, city, mixed, 2017, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							106.9942127557663,-6.343817447034646,0 106.9924891844,-6.346076967720803,0 106.992931163645,-6.34778250508765,0 106.9937430889481,-6.348133442090889,0 106.9938960415233,-6.349045056202322,0 106.9984676619066,-6.351628334605254,0 107.0002892653306,-6.348075540067616,0 106.999924450992,-6.347057647906431,0 107.0003011776961,-6.346081244171651,0 106.999095564329,-6.345599570974092,0 106.999295095101,-6.34492396555142,0 106.9986678762372,-6.34408598602873,0 106.9991442813429,-6.343048455516599,0 107.0006298077208,-6.343262961036093,0 107.0008659203098,-6.342679783730174,0 106.9983632248162,-6.341800774503747,0 106.9976858277656,-6.343004036148536,0 106.9974334331174,-6.342449691431531,0 106.9966834377426,-6.343145050120831,0 106.9958562638603,-6.34304344012132,0 106.9942127557663,-6.343817447034646,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bantar Gebang</name>
+			<open>1</open>
+			<description>Indonesia, city, mixed, 2018, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							106.9942127557663,-6.343817447034646,0 106.9924891844,-6.346076967720803,0 106.992931163645,-6.34778250508765,0 106.9937430889481,-6.348133442090889,0 106.9938960415233,-6.349045056202322,0 106.9984676619066,-6.351628334605254,0 107.0002892653306,-6.348075540067616,0 106.999924450992,-6.347057647906431,0 107.0003011776961,-6.346081244171651,0 106.999095564329,-6.345599570974092,0 106.999295095101,-6.34492396555142,0 106.9986678762372,-6.34408598602873,0 106.9991442813429,-6.343048455516599,0 107.0006298077208,-6.343262961036093,0 107.0008659203098,-6.342679783730174,0 106.9983632248162,-6.341800774503747,0 106.9976858277656,-6.343004036148536,0 106.9974334331174,-6.342449691431531,0 106.9966834377426,-6.343145050120831,0 106.9958562638603,-6.34304344012132,0 106.9942127557663,-6.343817447034646,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bantar Gebang</name>
+			<open>1</open>
+			<description>Indonesia, city, mixed, 2019, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							106.9942127557663,-6.343817447034646,0 106.9924891844,-6.346076967720803,0 106.992931163645,-6.34778250508765,0 106.9937430889481,-6.348133442090889,0 106.9938960415233,-6.349045056202322,0 106.9984676619066,-6.351628334605254,0 107.0002892653306,-6.348075540067616,0 106.999924450992,-6.347057647906431,0 107.0003011776961,-6.346081244171651,0 106.999095564329,-6.345599570974092,0 106.999295095101,-6.34492396555142,0 106.9986678762372,-6.34408598602873,0 106.9991442813429,-6.343048455516599,0 107.0006298077208,-6.343262961036093,0 107.0008659203098,-6.342679783730174,0 106.9983632248162,-6.341800774503747,0 106.9976858277656,-6.343004036148536,0 106.9974334331174,-6.342449691431531,0 106.9966834377426,-6.343145050120831,0 106.9958562638603,-6.34304344012132,0 106.9942127557663,-6.343817447034646,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bantar Gebang</name>
+			<open>1</open>
+			<description>Indonesia, city, mixed, 2020, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							106.9942127557663,-6.343817447034646,0 106.9924891844,-6.346076967720803,0 106.992931163645,-6.34778250508765,0 106.9937430889481,-6.348133442090889,0 106.9938960415233,-6.349045056202322,0 106.9984676619066,-6.351628334605254,0 107.0002892653306,-6.348075540067616,0 106.999924450992,-6.347057647906431,0 107.0003011776961,-6.346081244171651,0 106.999095564329,-6.345599570974092,0 106.999295095101,-6.34492396555142,0 106.9986678762372,-6.34408598602873,0 106.9991442813429,-6.343048455516599,0 107.0006298077208,-6.343262961036093,0 107.0008659203098,-6.342679783730174,0 106.9983632248162,-6.341800774503747,0 106.9976858277656,-6.343004036148536,0 106.9974334331174,-6.342449691431531,0 106.9966834377426,-6.343145050120831,0 106.9958562638603,-6.34304344012132,0 106.9942127557663,-6.343817447034646,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Suwung</name>
+			<description>Indonesia, city, mixed, 2014, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							115.2219365837121,-8.719968976918306,0 115.2201283338843,-8.719936199110064,0 115.2190469106589,-8.720742774838728,0 115.2178745005443,-8.72099503812419,0 115.2179053926554,-8.721694196066123,0 115.2182762743208,-8.722095833197255,0 115.2183061457305,-8.723228284548917,0 115.2190533263512,-8.723959850534882,0 115.2197893726344,-8.724452539228809,0 115.2233725783438,-8.724198874677258,0 115.2234058312968,-8.720933163410631,0 115.2222769721519,-8.720876150063081,0 115.2219365837121,-8.719968976918306,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Suwung</name>
+			<open>1</open>
+			<description>Indonesia, city, mixed, 2015, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							115.2219365837121,-8.719968976918306,0 115.2201283338843,-8.719936199110064,0 115.2190469106589,-8.720742774838728,0 115.2178745005443,-8.72099503812419,0 115.2179053926554,-8.721694196066123,0 115.2182762743208,-8.722095833197255,0 115.2183061457305,-8.723228284548917,0 115.2190533263512,-8.723959850534882,0 115.2197893726344,-8.724452539228809,0 115.2233725783438,-8.724198874677258,0 115.2234058312968,-8.720933163410631,0 115.2222769721519,-8.720876150063081,0 115.2219365837121,-8.719968976918306,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Suwung</name>
+			<open>1</open>
+			<description>Indonesia, city, mixed, 2016, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							115.2219365837121,-8.719968976918306,0 115.2201283338843,-8.719936199110064,0 115.2190469106589,-8.720742774838728,0 115.2178745005443,-8.72099503812419,0 115.2179053926554,-8.721694196066123,0 115.2182762743208,-8.722095833197255,0 115.2183061457305,-8.723228284548917,0 115.2190533263512,-8.723959850534882,0 115.2197893726344,-8.724452539228809,0 115.2233725783438,-8.724198874677258,0 115.2234058312968,-8.720933163410631,0 115.2222769721519,-8.720876150063081,0 115.2219365837121,-8.719968976918306,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Suwung</name>
+			<open>1</open>
+			<description>Indonesia, city, mixed, 2017, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							115.2219365837121,-8.719968976918306,0 115.2201283338843,-8.719936199110064,0 115.2190469106589,-8.720742774838728,0 115.2178745005443,-8.72099503812419,0 115.2179053926554,-8.721694196066123,0 115.2182762743208,-8.722095833197255,0 115.2183061457305,-8.723228284548917,0 115.2190533263512,-8.723959850534882,0 115.2197893726344,-8.724452539228809,0 115.2233725783438,-8.724198874677258,0 115.2234058312968,-8.720933163410631,0 115.2222769721519,-8.720876150063081,0 115.2219365837121,-8.719968976918306,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Suwung</name>
+			<open>1</open>
+			<description>Indonesia, city, mixed, 2018, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							115.2219365837121,-8.719968976918306,0 115.2201283338843,-8.719936199110064,0 115.2190469106589,-8.720742774838728,0 115.2178745005443,-8.72099503812419,0 115.2179053926554,-8.721694196066123,0 115.2182762743208,-8.722095833197255,0 115.2183061457305,-8.723228284548917,0 115.2190533263512,-8.723959850534882,0 115.2197893726344,-8.724452539228809,0 115.2233725783438,-8.724198874677258,0 115.2234058312968,-8.720933163410631,0 115.2222769721519,-8.720876150063081,0 115.2219365837121,-8.719968976918306,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Suwung</name>
+			<open>1</open>
+			<description>Indonesia, city, mixed, 2019, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							115.2219365837121,-8.719968976918306,0 115.2201283338843,-8.719936199110064,0 115.2190469106589,-8.720742774838728,0 115.2178745005443,-8.72099503812419,0 115.2179053926554,-8.721694196066123,0 115.2182762743208,-8.722095833197255,0 115.2183061457305,-8.723228284548917,0 115.2190533263512,-8.723959850534882,0 115.2197893726344,-8.724452539228809,0 115.2233725783438,-8.724198874677258,0 115.2234058312968,-8.720933163410631,0 115.2222769721519,-8.720876150063081,0 115.2219365837121,-8.719968976918306,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Suwung</name>
+			<open>1</open>
+			<description>Indonesia, city, mixed, 2020, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							115.2219365837121,-8.719968976918306,0 115.2201283338843,-8.719936199110064,0 115.2190469106589,-8.720742774838728,0 115.2178745005443,-8.72099503812419,0 115.2179053926554,-8.721694196066123,0 115.2182762743208,-8.722095833197255,0 115.2183061457305,-8.723228284548917,0 115.2190533263512,-8.723959850534882,0 115.2197893726344,-8.724452539228809,0 115.2233725783438,-8.724198874677258,0 115.2234058312968,-8.720933163410631,0 115.2222769721519,-8.720876150063081,0 115.2219365837121,-8.719968976918306,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Tibar</name>
+			<visibility>0</visibility>
+			<description>Timor L&apos;este, city, mixed, 2016, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							125.5002458618865,-8.576464573613872,0 125.501192822247,-8.577985111803136,0 125.5018096336329,-8.577840211770246,0 125.5022190286061,-8.578262062666013,0 125.5033232184565,-8.577805102555484,0 125.5026883750876,-8.57677825044264,0 125.5015872483975,-8.577159880927409,0 125.5007563398872,-8.576344570205789,0 125.5002458618865,-8.576464573613872,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Tibar</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Timor L&apos;este, city, mixed, 2017, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							125.5002297522253,-8.576409498297028,0 125.4999818989973,-8.576979324854491,0 125.5004330084161,-8.578090093511337,0 125.5010360264867,-8.578240261319822,0 125.501192822247,-8.577985111803136,0 125.5018096336329,-8.577840211770246,0 125.5022190286061,-8.578262062666013,0 125.5033232184565,-8.577805102555484,0 125.5026883750876,-8.57677825044264,0 125.5015872483975,-8.577159880927409,0 125.5007563398872,-8.576344570205789,0 125.5002297522253,-8.576409498297028,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Tibar</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Timor L&apos;este, city, mixed, 2018, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							125.5002317321183,-8.576475837224493,0 125.4996942677998,-8.57643882530175,0 125.4996925223532,-8.57744849245285,0 125.4996225420197,-8.577874787149227,0 125.501072912241,-8.578271683976141,0 125.501192822247,-8.577985111803136,0 125.5018096336329,-8.577840211770246,0 125.5022190286061,-8.578262062666013,0 125.5033232184565,-8.577805102555484,0 125.5026883750876,-8.57677825044264,0 125.5015872483975,-8.577159880927409,0 125.5007563398872,-8.576344570205789,0 125.5002317321183,-8.576475837224493,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Tibar</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>Timor L&apos;este, city, mixed, 2019, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							125.5002317321183,-8.576475837224493,0 125.4996942677998,-8.57643882530175,0 125.4996925223532,-8.57744849245285,0 125.4996225420197,-8.577874787149227,0 125.501072912241,-8.578271683976141,0 125.501192822247,-8.577985111803136,0 125.5018096336329,-8.577840211770246,0 125.5022190286061,-8.578262062666013,0 125.5033232184565,-8.577805102555484,0 125.5026883750876,-8.57677825044264,0 125.5015872483975,-8.577159880927409,0 125.5007563398872,-8.576344570205789,0 125.5002317321183,-8.576475837224493,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Tibar</name>
+			<open>1</open>
+			<description>Timor L&apos;este, city, mixed, 2020, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							125.5002317321183,-8.576475837224493,0 125.4996942677998,-8.57643882530175,0 125.4996925223532,-8.57744849245285,0 125.4996088792064,-8.577887278693115,0 125.4984999259902,-8.577663705704174,0 125.4978141323859,-8.577837338516378,0 125.4970787817865,-8.576970132238534,0 125.4973331005722,-8.576046184713727,0 125.4981131685644,-8.576989212751638,0 125.4981855064764,-8.577328619615319,0 125.501072912241,-8.578271683976141,0 125.501192822247,-8.577985111803136,0 125.5018096336329,-8.577840211770246,0 125.5022190286061,-8.578262062666013,0 125.5033232184565,-8.577805102555484,0 125.5026883750876,-8.57677825044264,0 125.5015872483975,-8.577159880927409,0 125.5007563398872,-8.576344570205789,0 125.5002317321183,-8.576475837224493,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Payatas</name>
+			<description>Philippines, city, mixed, 2014, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							121.1050858420795,14.7141953656573,0 121.1066012897048,14.71143509579297,0 121.1080202260729,14.71182332711821,0 121.1079392654131,14.71333491903212,0 121.1094671382873,14.71424283336074,0 121.1092788966579,14.71603010988104,0 121.1065704114335,14.71704386849579,0 121.1056809235567,14.7188178625584,0 121.1044375106346,14.7197489368148,0 121.1024988546592,14.7188339972208,0 121.1050858420795,14.7141953656573,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Payatas</name>
+			<open>1</open>
+			<description>Philippines, city, mixed, 2015, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							121.1050858420795,14.7141953656573,0 121.1066012897048,14.71143509579297,0 121.1080202260729,14.71182332711821,0 121.1079392654131,14.71333491903212,0 121.1094671382873,14.71424283336074,0 121.1092788966579,14.71603010988104,0 121.1065704114335,14.71704386849579,0 121.1056809235567,14.7188178625584,0 121.1044375106346,14.7197489368148,0 121.1024988546592,14.7188339972208,0 121.1050858420795,14.7141953656573,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Payatas</name>
+			<open>1</open>
+			<description>Philippines, city, mixed, 2016, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							121.1050858420795,14.7141953656573,0 121.1066012897048,14.71143509579297,0 121.1080202260729,14.71182332711821,0 121.1079392654131,14.71333491903212,0 121.1094671382873,14.71424283336074,0 121.1092788966579,14.71603010988104,0 121.1065704114335,14.71704386849579,0 121.1056809235567,14.7188178625584,0 121.1044375106346,14.7197489368148,0 121.1024988546592,14.7188339972208,0 121.1050858420795,14.7141953656573,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Payatas</name>
+			<open>1</open>
+			<description>Philippines, city, mixed, 2017, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							121.1050858420795,14.7141953656573,0 121.1066012897048,14.71143509579297,0 121.1080202260729,14.71182332711821,0 121.1079392654131,14.71333491903212,0 121.1094671382873,14.71424283336074,0 121.1092788966579,14.71603010988104,0 121.1065704114335,14.71704386849579,0 121.1056809235567,14.7188178625584,0 121.1044375106346,14.7197489368148,0 121.1024988546592,14.7188339972208,0 121.1050858420795,14.7141953656573,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Payatas</name>
+			<open>1</open>
+			<description>Philippines, city, mixed, 2018, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							121.1050858420795,14.7141953656573,0 121.1066012897048,14.71143509579297,0 121.1080202260729,14.71182332711821,0 121.1079392654131,14.71333491903212,0 121.1094671382873,14.71424283336074,0 121.1092788966579,14.71603010988104,0 121.1065704114335,14.71704386849579,0 121.1056809235567,14.7188178625584,0 121.1044375106346,14.7197489368148,0 121.1024988546592,14.7188339972208,0 121.1050858420795,14.7141953656573,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Payatas</name>
+			<open>1</open>
+			<description>Philippines, city, mixed, 2019, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							121.1050858420795,14.7141953656573,0 121.1066012897048,14.71143509579297,0 121.1080202260729,14.71182332711821,0 121.1079392654131,14.71333491903212,0 121.1094671382873,14.71424283336074,0 121.1092788966579,14.71603010988104,0 121.1065704114335,14.71704386849579,0 121.1056809235567,14.7188178625584,0 121.1044375106346,14.7197489368148,0 121.1024988546592,14.7188339972208,0 121.1050858420795,14.7141953656573,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Payatas</name>
+			<open>1</open>
+			<description>Philippines, city, mixed, 2020, D-waste</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							121.1050858420795,14.7141953656573,0 121.1066012897048,14.71143509579297,0 121.1080202260729,14.71182332711821,0 121.1079392654131,14.71333491903212,0 121.1094671382873,14.71424283336074,0 121.1092788966579,14.71603010988104,0 121.1065704114335,14.71704386849579,0 121.1056809235567,14.7188178625584,0 121.1044375106346,14.7197489368148,0 121.1024988546592,14.7188339972208,0 121.1050858420795,14.7141953656573,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

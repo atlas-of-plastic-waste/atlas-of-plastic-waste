@@ -3,9 +3,18 @@
 <Document>
 	<name>atlas_of_plastic.kml</name>
 	<open>1</open>
-	<Style id="s_ylw-pushpin00">
+	<Style id="s_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -21,26 +30,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl00">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin0">
+	<Style id="s_ylw-pushpin00">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -59,17 +49,26 @@
 			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin1">
+	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin_hl0">
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -87,24 +86,6 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="m_ylw-pushpin2">
 		<Pair>
 			<key>normal</key>
@@ -113,6 +94,25 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Folder>
@@ -881,7 +881,8 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Wespack</name>
+			<name>42</name>
+			<visibility>0</visibility>
 			<description>Malaysia, informal, plastics, 2014, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -890,6 +891,621 @@
 					<LinearRing>
 						<coordinates>
 							101.4957037559865,2.892604454390545,0 101.4959622149775,2.892308851000109,0 101.4972523746146,2.89355326136433,0 101.4970099796548,2.893834026754577,0 101.4957037559865,2.892604454390545,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>42</name>
+			<visibility>0</visibility>
+			<description>Malaysia, informal, plastics, 2015, C4Center
+</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.4957329753249,2.892613649082834,0 101.4959567893731,2.892350037251705,0 101.4961251609579,2.892442373478999,0 101.4961963960525,2.892701306990007,0 101.4961254732692,2.892869441464832,0 101.4960736778442,2.89295332021101,0 101.4957329753249,2.892613649082834,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>42</name>
+			<visibility>0</visibility>
+			<description>Malaysia, informal, plastics, 2017, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.4957313206567,2.892663230031754,0 101.4958184128983,2.892501007732319,0 101.4959382025911,2.892434967635826,0 101.4960713689812,2.892546666515051,0 101.4960737704278,2.892650327037721,0 101.4959631320399,2.892782061647509,0 101.4957313206567,2.892663230031754,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>42</name>
+			<visibility>0</visibility>
+			<description>Malaysia, informal, plastics, 2018, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.49591253389,2.892429679011654,0 101.4960671827836,2.892486110299341,0 101.4960466633128,2.892602899397174,0 101.4960569382648,2.892683163894855,0 101.495959249532,2.892763957753341,0 101.4958611336679,2.892731348879209,0 101.4957512836821,2.892730433435157,0 101.4956841975864,2.892565623900288,0 101.49591253389,2.892429679011654,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>45</name>
+			<visibility>0</visibility>
+			<description>Malaysia, city, plastics, 2017, C4Center
+</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.3462935142075,2.983126014448278,0 101.3462929453687,2.983068389112237,0 101.3463137202439,2.983061765289801,0 101.3463687092538,2.983171292104821,0 101.3464240557252,2.983243878131023,0 101.3463960187859,2.983288261521085,0 101.3462935142075,2.983126014448278,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>45</name>
+			<visibility>0</visibility>
+			<description>Malaysia, city, plastics, 2018, C4Center
+</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.3462999118184,2.983250150402728,0 101.3462495416085,2.983185698047452,0 101.3462373798287,2.98310583757794,0 101.3462622486345,2.983120657140509,0 101.3462914611825,2.983175729824413,0 101.3462999118184,2.983250150402728,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>45</name>
+			<visibility>0</visibility>
+			<description>Malaysia, city, plastics, 2020, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.3462267810897,2.98305022702848,0 101.3462633952826,2.982986323849456,0 101.3463507542397,2.983116330779434,0 101.3463261525976,2.983132749207792,0 101.3462267810897,2.98305022702848,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>46</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2014, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.4582171941844,2.887817208166484,0 101.4582575722612,2.887521859858689,0 101.4584369242012,2.887509791670497,0 101.4585428738995,2.887422948937014,0 101.4586849245566,2.887428674962029,0 101.458763398349,2.887816923201147,0 101.4582171941844,2.887817208166484,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>46</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2015, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.4583291371549,2.887810117003951,0 101.4583267333298,2.887474125266662,0 101.4587235896691,2.887408156928375,0 101.458812077795,2.887797856139097,0 101.4583291371549,2.887810117003951,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>46</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2018, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.4569816199802,2.888484621799847,0 101.4567137585956,2.88795533538214,0 101.4577069574576,2.887989476762681,0 101.4585047058604,2.887984336446615,0 101.45977202937,2.887903671622461,0 101.4597799608741,2.888327117326532,0 101.4569816199802,2.888484621799847,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>47</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2015, C4Center
+</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.4578372336146,2.890129635946171,0 101.4580673317583,2.890231510474429,0 101.4581670995185,2.890446433719887,0 101.4574370454724,2.890462685872062,0 101.4574107785104,2.890152456622125,0 101.4578372336146,2.890129635946171,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>47</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2018, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.4574365501216,2.890468703105496,0 101.4573797572568,2.890146612442454,0 101.4578928474437,2.890121324262942,0 101.457905003638,2.890225922715377,0 101.4580993445677,2.890228569155206,0 101.4581143050958,2.890106043725706,0 101.4582902549992,2.890106885041333,0 101.4583097111417,2.890233616084578,0 101.4584321087129,2.890230559346055,0 101.4584155830853,2.890068038301075,0 101.4589319201864,2.890008130015235,0 101.4591623224345,2.890402447745545,0 101.4574365501216,2.890468703105496,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>48</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2018, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.455744141014,2.884339647788641,0 101.4559914713504,2.8841777825879,0 101.4561777573834,2.884684404753409,0 101.4559039914142,2.884744721362682,0 101.455744141014,2.884339647788641,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>50</name>
+			<visibility>0</visibility>
+			<description>Malaysia, informal, plastics, 2021, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.6633126002303,5.659469596480401,0 100.6633261190477,5.658831475788893,0 100.6642830505941,5.659035790941606,0 100.6644082652056,5.659369271435686,0 100.6633126002303,5.659469596480401,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>51</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2014, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4955551840248,5.618419806455681,0 100.4955573763437,5.618158522552829,0 100.4957073469455,5.618225328414204,0 100.4957009163393,5.61840309352682,0 100.4955551840248,5.618419806455681,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>51</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2015, C4Center
+</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4955586776027,5.618691573212343,0 100.495554798075,5.618150562898807,0 100.4957155967937,5.618225328413187,0 100.4957149315075,5.618394756643941,0 100.4956020316679,5.618473077274237,0 100.4956261317947,5.618575480094079,0 100.4956970456116,5.618598501703775,0 100.495696566189,5.618685709570602,0 100.4955586776027,5.618691573212343,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>51</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2018, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.495489475833,5.618822178070842,0 100.495586933529,5.618538277065247,0 100.4957368436632,5.618636120859914,0 100.4957099024029,5.618928310004375,0 100.4956173863311,5.6188191751672,0 100.495489475833,5.618822178070842,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>51</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2018, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4958700017807,5.618526881196212,0 100.4958632496277,5.618142615343213,0 100.4959096306877,5.618142615335362,0 100.4959037311725,5.617922362438456,0 100.495989480839,5.617935060455332,0 100.495984764335,5.617844333738068,0 100.4960803316837,5.617849331747515,0 100.4960534891997,5.618512670145128,0 100.4958700017807,5.618526881196212,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>51</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2018, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4952077421253,5.619258509861258,0 100.4951873730595,5.61905778903725,0 100.4953193173027,5.619033749768628,0 100.4953302511002,5.619222907030385,0 100.4952077421253,5.619258509861258,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>51</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2018, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.495534266201,5.617690334331976,0 100.4955519852386,5.617580147653539,0 100.4956466005559,5.617606631466613,0 100.4957313128986,5.617588940298861,0 100.4957093276087,5.6176696841755,0 100.495534266201,5.617690334331976,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>51</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2019, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4958261029899,5.618759577625488,0 100.4959294480034,5.61792813157501,0 100.4961000374431,5.61789767580408,0 100.496169014268,5.618238356213174,0 100.4960864881856,5.618390656584668,0 100.4960787693633,5.618611925231363,0 100.4958261029899,5.618759577625488,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>51</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2019, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4955848530774,5.61769494902132,0 100.4956424831202,5.617602195380369,0 100.4958202126866,5.617593349877864,0 100.4958545347303,5.617674256832498,0 100.4955848530774,5.61769494902132,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>51</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2020, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4959306081892,5.618252891991285,0 100.4958702539753,5.617895154822704,0 100.4961006326834,5.617880089358301,0 100.4962799982102,5.61785519279713,0 100.4961976776937,5.618218144300843,0 100.4959306081892,5.618252891991285,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>52</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2015, C4Center
+</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4930507454017,5.617084650462365,0 100.493028269534,5.616894668055927,0 100.4932395469627,5.616881689214491,0 100.4932506508589,5.617121965254853,0 100.4930507454017,5.617084650462365,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>52</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2016, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4930489723471,5.617092043773488,0 100.4932628263644,5.616892063100146,0 100.4932506434261,5.617103944973519,0 100.4930489723471,5.617092043773488,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>52</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2014, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4930419616769,5.615971483160046,0 100.4929702895186,5.615970290136235,0 100.4929328772397,5.61585693303231,0 100.4930424564051,5.615866864010172,0 100.4930419616769,5.615971483160046,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>52</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2015, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4925825222571,5.615963153246417,0 100.4925873870717,5.615799878372056,0 100.4927182707055,5.615752254885311,0 100.4927429551928,5.615837285249557,0 100.4929428437065,5.61586686396665,0 100.4929773716158,5.615964340148313,0 100.4925825222571,5.615963153246417,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>52</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2016, C4Center
+</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4926112282827,5.615976265196919,0 100.4925884661415,5.615814716721463,0 100.4927163396259,5.615770686960054,0 100.4927425027954,5.615879100151385,0 100.4929067696981,5.61589822676514,0 100.4930657344233,5.615891446031579,0 100.4930550676496,5.615979862162275,0 100.4926112282827,5.615976265196919,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>52</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2017, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4925700975448,5.615967907286791,0 100.4925810197441,5.615812586891397,0 100.4927276856734,5.615788333897206,0 100.492765741995,5.615845982634185,0 100.4928457852352,5.615925685313928,0 100.4928408248021,5.615975068081537,0 100.4925700975448,5.615967907286791,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>52</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2018, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4926218220934,5.615976265187302,0 100.4926392009198,5.615767597007519,0 100.4927228560605,5.615760415160458,0 100.492734753708,5.615876867278248,0 100.4927883419898,5.615905040811789,0 100.4927844360934,5.615973872099902,0 100.4926218220934,5.615976265187302,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>53</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2016, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4888040881434,5.619908288534175,0 100.4888108881446,5.619836922921028,0 100.4896337871509,5.619884349917649,0 100.4896171234978,5.619968813328611,0 100.4888040881434,5.619908288534175,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>53</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2017, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4886462177221,5.619985933263938,0 100.4885999752482,5.619815776280405,0 100.4888062882654,5.619862932621622,0 100.4889569850652,5.619855821178415,0 100.4891155225707,5.619872436032614,0 100.4890537245301,5.619990839568274,0 100.4886462177221,5.619985933263938,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>53</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2018, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4884670149416,5.619973695882587,0 100.488474390625,5.619851087487865,0 100.488655731427,5.61984399843519,0 100.4886375840958,5.619934799427512,0 100.4885722054392,5.619976140189273,0 100.4884670149416,5.619973695882587,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>53</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2018, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4885545218586,5.620350735389744,0 100.4885569398835,5.620176921044248,0 100.4886208018616,5.620176921024401,0 100.4886673297231,5.620364219475177,0 100.4885545218586,5.620350735389744,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>53</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2019, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4883709681111,5.620025359600988,0 100.4883973195243,5.619748445963269,0 100.4887473752479,5.619858190059928,0 100.4887321653194,5.62003776416762,0 100.4883709681111,5.620025359600988,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>53</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2020, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4885754918183,5.620032797457076,0 100.4886469892156,5.619806416269249,0 100.4888084812472,5.619822811865469,0 100.4887755882248,5.62003776418466,0 100.4885754918183,5.620032797457076,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>53</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2021, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.4883725446981,5.619995751740299,0 100.4883816593025,5.619780797350894,0 100.4887429414618,5.619799411737806,0 100.4887274390216,5.620022883395816,0 100.4883725446981,5.619995751740299,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>55</name>
+			<visibility>0</visibility>
+			<description>Malaysia, informal, plastics, 2021, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.5007339370526,5.673877004987934,0 100.500705117984,5.673796232233071,0 100.5007900523136,5.673763705467961,0 100.5008161921518,5.673816385057068,0 100.5007339370526,5.673877004987934,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>57</name>
+			<visibility>0</visibility>
+			<description>Malaysia, factory, plastics, 2020, C4Center</description>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.4769018775518,3.005595809912759,0 101.4767316968081,3.005181047096531,0 101.4771744137589,3.00503911171164,0 101.4773316136759,3.005471212212587,0 101.4769018775518,3.005595809912759,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>

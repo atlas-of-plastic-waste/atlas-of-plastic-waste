@@ -1,42 +1,59 @@
-﻿id,name,country,latitude,longitude,land_water,formality,waste_type,date_observed,other
- 1,Adana,Turkey,37.03277778,35.16111111,1,0,plastic,03012021,Greenpeace
- 2,Adana,Turkey,36.95833333,35.26277778,1,0,plastic,03012021,Greenpeace
- 3,Adana,Turkey,37.05111111,35.18750000,1,0,plastic,03012021,Greenpeace
- 4,Adana,Turkey,36.68166667,35.06694444,1,0,plastic,03012021,Greenpeace
- 5,Karahan,Turkey,37.06527778,35.18694444,1,0,plastic,03012021,Greenpeace
- 6,Karahan,Turkey,37.05111111,35.18750000,1,0,plastic,03012021,Greenpeace
- 7,Karahan,Turkey,37.04861111,35.21138889,1,0,plastic,03012021,Greenpeace
- 8,Kuyumcular,Turkey,37.03277778,35.16138889,1,0,plastic,03012021,Greenpeace
- 9,Yenidam,Turkey,36.95833333,35.26277778,1,0,plastic,03012021,Greenpeace
- 10,Yenidam,Turkey,36.95944444,35.26361111,1,0,plastic,03012021,Greenpeace
- 11,Dedepinari,Turkey,36.97222222,35.44611111,1,0,plastic,03012021,Greenpeace
- 12,Pulau Indah Klang,Malaysia,2.98419,101.34565,1,0,plastic,08012019,Greenpeace
- 13,Pulau Indah Klang,Malaysia,2.98400,101.34690,1,0,plastic,08012019,Greenpeace
- 14,Pulau Indah Klang,Malaysia,2.98510,101.34610,1,0,plastic,08012019,Greenpeace
- 15,Pulau Indah Klang,Malaysia,2.98427,101.34664,1,0,plastic,08012019,Greenpeace
- 16,Pulau Indah Klang,Malaysia,2.98111,101.35111,1,0,plastic,08012019,Greenpeace
- 17,Kapar Klang,Malaysia,3.16195,101.43837,1,0,plastic,08012019,Greenpeace
- 18,Kampung Sri Cheeding Kuala Langat,Malaysia,2.89250,101.56389,1,0,plastic,08012019,Greenpeace
- 19,Sungai Muda,Malaysia,5.54277,100.58487,1,0,plastic,08012019,Greenpeace
- 20,Tibar,Timor-Leste,-8.576699252169567,125.49963964139832,1,1,mixed,10012018,D-waste
- 21,Suwung,Indonesia,-8.722814800698444,115.22224836581836,1,1,mixed,02012019,D-waste
- 22,Bantar Gebang,Indonesia,-6.347984483262681,106.9991700454427,1,1,mixed,05012020,D-waste
- 23,Payatas,Philippines,14.715489898697722,121.10746688750042,1,1,mixed,12012010,D-waste
- 24,Dhapa,India,22.536926690786636,88.42332808555858,1,1,mixed,11012020,D-waste
- 25,Perugundi,India,12.95556905299535,80.22400466619396,1,1,mixed,08012021,D-waste
- 26,BBMP Mandur,India,13.082519679345603,77.72663686580256,1,1,mixed,01012014,D-waste
- 27,Deonar,India,19.070866965614442,72.9258755021821,1,1,mixed,10012021,D-waste
- 28,Pirana,India,22.980848699208078,72.56576171210885,1,1,mixed,10012021,D-waste
- 29,Kodungaiyur,India,13.1339591423047,80.26784561295379,1,1,mixed,08012021,D-waste
- 30,Okhla,India,28.512461072386113,77.28328576304303,1,1,mixed,01012018,D-waste
- 31,Ghazipur,India,28.62346649331532,77.32705843961564,1,1,mixed,01012021,D-waste
- 32,Bhalaswa,India,28.74050732544966,77.15884722263651,1,1,mixed,08012020,D-waste
- 33,Mehmood Booti,Pakistan,31.61005081778955,74.38657900944014,1,1,mixed,01012016,D-waste
- 34,Jam Chakro,Pakistan,25.02883390033227,67.03077095322188,1,1,mixed,01012019,D-waste
- 35,Bishek,Kyrgyzstan,42.967567295421055,74.59020527418423,1,1,mixed,11062019,D-waste
- 36,Sidon,Beirut,33.55031297918514,35.364080217926755,1,1,mixed,02012013,D-waste
- 37,Al Akaider,Jordan,32.51354244044339,36.110019150847535,1,1,mixed,03012019,D-waste
- 38,Al Husaineyat,Jordan,32.25562892358325,36.35109268874782,1,1,mixed,10012012,D-waste
- 39,Sofa,Palestine,31.270574352488833,34.32696248082121,1,1,mixed,01012019,D-waste
- 40,Deir Al Balah,Palestine,31.392357619063684,34.381445212460186,1,1,mixed,01012019,D-waste
- 41,Johr Al Deek,Palestine,31.45578116732088,34.45518673139935,1,1,mixed,01012019,D-waste
+﻿id,name,country,latitude,longitude,land_water,formality,waste_type,date_observed,other,
+1,Adana,Turkey,37.03277778,35.16111111,1,0,plastic,3012021,Greenpeace,
+2,Adana,Turkey,36.95833333,35.26277778,1,0,plastic,3012021,Greenpeace,
+3,Adana,Turkey,37.05111111,35.1875,1,0,plastic,3012021,Greenpeace,
+4,Adana,Turkey,36.68166667,35.06694444,1,0,plastic,3012021,Greenpeace,
+5,Karahan,Turkey,37.06527778,35.18694444,1,0,plastic,3012021,Greenpeace,
+6,Karahan,Turkey,37.05111111,35.1875,1,0,plastic,3012021,Greenpeace,
+7,Karahan,Turkey,37.04861111,35.21138889,1,0,plastic,3012021,Greenpeace,
+8,Kuyumcular,Turkey,37.03277778,35.16138889,1,0,plastic,3012021,Greenpeace,
+9,Yenidam,Turkey,36.95833333,35.26277778,1,0,plastic,3012021,Greenpeace,
+10,Yenidam,Turkey,36.95944444,35.26361111,1,0,plastic,3012021,Greenpeace,
+11,Dedepinari,Turkey,36.97222222,35.44611111,1,0,plastic,3012021,Greenpeace,
+12,Pulau Indah Klang,Malaysia,2.98419,101.34565,1,0,plastic,8012019,Greenpeace,
+13,Pulau Indah Klang,Malaysia,2.984,101.3469,1,0,plastic,8012019,Greenpeace,
+14,Pulau Indah Klang,Malaysia,2.9851,101.3461,1,0,plastic,8012019,Greenpeace,
+15,Pulau Indah Klang,Malaysia,2.98427,101.34664,1,0,plastic,8012019,Greenpeace,
+16,Pulau Indah Klang,Malaysia,2.98111,101.35111,1,0,plastic,8012019,Greenpeace,
+17,Kapar Klang,Malaysia,3.16195,101.43837,1,0,plastic,8012019,Greenpeace,
+18,Kampung Sri Cheeding Kuala Langat,Malaysia,2.8925,101.56389,1,0,plastic,8012019,Greenpeace,
+19,Sungai Muda,Malaysia,5.54277,100.58487,1,0,plastic,8012019,Greenpeace,
+20,Tibar,Timor-Leste,-8.576699252,125.4996396,1,1,mixed,10012018,D-waste,
+21,Suwung,Indonesia,-8.722814801,115.2222484,1,1,mixed,2012019,D-waste,
+22,Bantar Gebang,Indonesia,-6.347984483,106.99917,1,1,mixed,5012020,D-waste,
+23,Payatas,Philippines,14.7154899,121.1074669,1,1,mixed,12012010,D-waste,
+24,Dhapa,India,22.53692669,88.42332809,1,1,mixed,11012020,D-waste,
+25,Perugundi,India,12.95556905,80.22400467,1,1,mixed,8012021,D-waste,
+26,BBMP Mandur,India,13.08251968,77.72663687,1,1,mixed,1012014,D-waste,
+27,Deonar,India,19.07086697,72.9258755,1,1,mixed,10012021,D-waste,
+28,Pirana,India,22.9808487,72.56576171,1,1,mixed,10012021,D-waste,
+29,Kodungaiyur,India,13.13395914,80.26784561,1,1,mixed,8012021,D-waste,
+30,Okhla,India,28.51246107,77.28328576,1,1,mixed,1012018,D-waste,
+31,Ghazipur,India,28.62346649,77.32705844,1,1,mixed,1012021,D-waste,
+32,Bhalaswa,India,28.74050733,77.15884722,1,1,mixed,8012020,D-waste,
+33,Mehmood Booti,Pakistan,31.61005082,74.38657901,1,1,mixed,1012016,D-waste,
+34,Jam Chakro,Pakistan,25.0288339,67.03077095,1,1,mixed,1012019,D-waste,
+35,Bishek,Kyrgyzstan,42.9675673,74.59020527,1,1,mixed,11062019,D-waste,
+36,Sidon,Beirut,33.55031298,35.36408022,1,1,mixed,2012013,D-waste,
+37,Al Akaider,Jordan,32.51354244,36.11001915,1,1,mixed,3012019,D-waste,
+38,Al Husaineyat,Jordan,32.25562892,36.35109269,1,1,mixed,10012012,D-waste,
+39,Sofa,Palestine,31.27057435,34.32696248,1,1,mixed,1012019,D-waste,
+40,Deir Al Balah,Palestine,31.39235762,34.38144521,1,1,mixed,1012019,D-waste,
+41,Johr Al Deek,Palestine,31.45578117,34.45518673,1,1,mixed,1012019,D-waste,
+42,Wespack,Malaysia,2.893178,101.495757,1,0,plastic,4012021,Dumping next to illegal factory,
+43,Banting,Malaysia,2.891384,101.558206,1,0,plastic,1012021,Former dumpsite,
+44,Jalan Klang,Malaysia,2.891301,101.4726,1,0,mixed,1012021,Lot with former dumpsite,
+45,Jalan Sungai,Malaysia,2.983184,101.346261,1,0,plastic,1012021,Dumps on street,
+46,Jalan Sungai,Malaysia,2.984249,101.34568,1,0,plastic,1012021,Dumps on street,
+47,EverClassic,Malaysia,2.888186,101.458224,1,1,plastic,1012021,Plastic waste outside of factory,
+48,EverClassic,Malaysia,2.890216,101.458754,1,1,plastic,1012021,Plastic waste outside of factory,
+49,MasterGalvanizing,Malaysia,2.884549,101.455948,1,1,plastic,1012021,Plastic waste outside of factory,
+50,Jalan Lencongan Timur,Malaysia,5.617691,100.526914,1,0,mixed,1012021,Former dumpsite?,confirm with satellite imagery?
+51,Muda River,Malaysia,5.659038,100.663776,1,0,plastic,1312021,"Shredded plastic waste, including electronic",
+52,MC Harvest,Malaysia,5.618638,100.495696,1,1,plastic,1012021,Dump next to factory,
+53,Greenmark,Malaysia,5.617068,100.49324,1,1,plastic,1012021,Dump next to factory,
+54,Eastern Growth,Malaysia,5.619924,100.489049,1,1,plastic,1012021,"Dump next to factory, local residents say not legitimate",
+55,Technology PP,Malaysia,5.646092,100.532773,1,1,plastic,1012021,Former dumpsite in lot next to factory,check historical imagery?
+56,Sungai Petani,Malaysia,5.674075,100.500908,1,0,plastic,1312021,Shredded waste dumped and set on fire,
+57,Selangor,Malaysia,3.018377,101.490669,1,1,scraps,1012021,"Scraps, could be illegal",
+58,Golden Mile,Malaysia,3.006641,101.477105,1,1,plastic,1012021,"Former dumpsite in lot next to factory, local community complaint",check historical imagery?

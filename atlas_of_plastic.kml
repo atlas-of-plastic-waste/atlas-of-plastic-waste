@@ -3,71 +3,6 @@
 <Document>
 	<name>atlas_of_plastic.kml</name>
 	<open>1</open>
-	<Style id="s_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl00">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
 	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -96,32 +31,13 @@
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin_hl0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Folder>
 		<name>Atlas of Plastic Waste</name>
 		<open>1</open>
 		<Placemark>
-			<name>Pulau Indah Klang</name>
+			<name>12</name>
 			<description>Malaysia, factory, plastics, 2014, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -134,9 +50,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Pulau Indah Klang</name>
+			<name>12</name>
 			<description>Malaysia, factory, plastics, 2015, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -149,9 +65,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Pulau Indah Klang</name>
+			<name>12</name>
 			<description>Malaysia, factory, plastics, 2015, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -164,9 +80,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Pulau Indah Klang</name>
+			<name>12</name>
 			<description>Malaysia, factory, plastics, 2015, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -179,9 +95,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Pulau Indah Klang</name>
+			<name>12</name>
 			<description>Malaysia, factory, plastics, 2017, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -194,9 +110,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Pulau Indah Klang</name>
+			<name>12</name>
 			<description>Malaysia, factory, plastics, 2017, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -209,9 +125,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Pulau Indah Klang</name>
+			<name>12</name>
 			<description>Malaysia, factory, plastics, 2014, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -224,9 +140,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Pulau Indah Klang</name>
+			<name>12</name>
 			<description>Malaysia, factory, plastics, 2018, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -239,9 +155,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Pulau Indah Klang</name>
+			<name>12</name>
 			<description>Malaysia, factory, plastics, 2018, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -254,9 +170,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Pulau Indah Klang</name>
+			<name>12</name>
 			<description>Malaysia, factory, plastics, 2020, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -269,9 +185,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Kampung Sri Cheeding Kuala Langat</name>
+			<name>18</name>
 			<description>Malaysia, informal, plastics, 2017, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -284,9 +200,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Kampung Sri Cheeding Kuala Langat</name>
+			<name>18</name>
 			<description>Malaysia, informal, plastics, 2018, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -299,9 +215,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Kampung Sri Cheeding Kuala Langat</name>
+			<name>18</name>
 			<description>Malaysia, informal, plastics, 2019, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -314,9 +230,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Kapar Klang</name>
+			<name>17</name>
 			<description>Malaysia, factory, plastics, 2018, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -329,9 +245,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Kapar Klang</name>
+			<name>17</name>
 			<description>Malaysia, factory, plastics, 2014, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -344,9 +260,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Kapar Klang</name>
+			<name>17</name>
 			<description>Malaysia, factory, plastics, 2015, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -359,9 +275,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Kapar Klang</name>
+			<name>17</name>
 			<description>Malaysia, factory, plastics, 2016, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -374,9 +290,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Sungai Muda</name>
+			<name>19</name>
 			<description>Malaysia, informal, plastics, 2020, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -389,9 +305,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Sungai Muda</name>
+			<name>19</name>
 			<description>Malaysia, informal, plastics, 2015, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -404,9 +320,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Sungai Muda</name>
+			<name>19</name>
 			<description>Malaysia, informal, plastics, 2016, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -419,9 +335,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Sungai Muda</name>
+			<name>19</name>
 			<description>Malaysia, informal, plastics, 2017, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -434,9 +350,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Sungai Muda</name>
+			<name>19</name>
 			<description>Malaysia, informal, plastics, 2018, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -449,9 +365,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Sungai Muda</name>
+			<name>19</name>
 			<description>Malaysia, informal, plastics, 2019, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -464,10 +380,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Bantar Gebang</name>
-			<visibility>0</visibility>
+			<name>22</name>
 			<description>Indonesia, city, mixed, 2014, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -480,10 +395,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Bantar Gebang</name>
+			<name>22</name>
 			<open>1</open>
 			<description>Indonesia, city, mixed, 2015, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -496,10 +411,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Bantar Gebang</name>
+			<name>22</name>
 			<open>1</open>
 			<description>Indonesia, city, mixed, 2016, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -512,10 +427,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Bantar Gebang</name>
+			<name>22</name>
 			<open>1</open>
 			<description>Indonesia, city, mixed, 2017, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -528,10 +443,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Bantar Gebang</name>
+			<name>22</name>
 			<open>1</open>
 			<description>Indonesia, city, mixed, 2018, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -544,10 +459,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Bantar Gebang</name>
+			<name>22</name>
 			<open>1</open>
 			<description>Indonesia, city, mixed, 2019, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -560,10 +475,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Bantar Gebang</name>
+			<name>22</name>
 			<open>1</open>
 			<description>Indonesia, city, mixed, 2020, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -576,9 +491,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Suwung</name>
+			<name>21</name>
 			<description>Indonesia, city, mixed, 2014, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -591,10 +506,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Suwung</name>
+			<name>21</name>
 			<open>1</open>
 			<description>Indonesia, city, mixed, 2015, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -607,10 +522,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Suwung</name>
+			<name>21</name>
 			<open>1</open>
 			<description>Indonesia, city, mixed, 2016, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -623,10 +538,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Suwung</name>
+			<name>21</name>
 			<open>1</open>
 			<description>Indonesia, city, mixed, 2017, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -639,10 +554,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Suwung</name>
+			<name>21</name>
 			<open>1</open>
 			<description>Indonesia, city, mixed, 2018, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -655,10 +570,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Suwung</name>
+			<name>21</name>
 			<open>1</open>
 			<description>Indonesia, city, mixed, 2019, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -671,10 +586,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Suwung</name>
+			<name>21</name>
 			<open>1</open>
 			<description>Indonesia, city, mixed, 2020, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -687,10 +602,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Tibar</name>
-			<visibility>0</visibility>
+			<name>20</name>
 			<description>Timor L&apos;este, city, mixed, 2016, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -703,11 +617,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Tibar</name>
-			<visibility>0</visibility>
+			<name>20</name>
 			<open>1</open>
 			<description>Timor L&apos;este, city, mixed, 2017, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -720,11 +633,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Tibar</name>
-			<visibility>0</visibility>
+			<name>20</name>
 			<open>1</open>
 			<description>Timor L&apos;este, city, mixed, 2018, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -737,11 +649,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Tibar</name>
-			<visibility>0</visibility>
+			<name>20</name>
 			<open>1</open>
 			<description>Timor L&apos;este, city, mixed, 2019, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -754,10 +665,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Tibar</name>
+			<name>20</name>
 			<open>1</open>
 			<description>Timor L&apos;este, city, mixed, 2020, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -770,9 +681,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Payatas</name>
+			<name>23</name>
 			<description>Philippines, city, mixed, 2014, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -785,10 +696,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Payatas</name>
+			<name>23</name>
 			<open>1</open>
 			<description>Philippines, city, mixed, 2015, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -801,10 +712,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Payatas</name>
+			<name>23</name>
 			<open>1</open>
 			<description>Philippines, city, mixed, 2016, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -817,10 +728,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Payatas</name>
+			<name>23</name>
 			<open>1</open>
 			<description>Philippines, city, mixed, 2017, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -833,10 +744,9 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Payatas</name>
-			<open>1</open>
+			<name>23</name>
 			<description>Philippines, city, mixed, 2018, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -849,10 +759,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Payatas</name>
+			<name>23</name>
 			<open>1</open>
 			<description>Philippines, city, mixed, 2019, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -865,10 +775,10 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Payatas</name>
+			<name>23</name>
 			<open>1</open>
 			<description>Philippines, city, mixed, 2020, D-waste</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -882,7 +792,6 @@
 		</Placemark>
 		<Placemark>
 			<name>42</name>
-			<visibility>0</visibility>
 			<description>Malaysia, informal, plastics, 2014, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -898,7 +807,6 @@
 		</Placemark>
 		<Placemark>
 			<name>42</name>
-			<visibility>0</visibility>
 			<description>Malaysia, informal, plastics, 2015, C4Center
 </description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
@@ -915,7 +823,6 @@
 		</Placemark>
 		<Placemark>
 			<name>42</name>
-			<visibility>0</visibility>
 			<description>Malaysia, informal, plastics, 2017, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -931,7 +838,6 @@
 		</Placemark>
 		<Placemark>
 			<name>42</name>
-			<visibility>0</visibility>
 			<description>Malaysia, informal, plastics, 2018, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -947,7 +853,6 @@
 		</Placemark>
 		<Placemark>
 			<name>45</name>
-			<visibility>0</visibility>
 			<description>Malaysia, city, plastics, 2017, C4Center
 </description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
@@ -964,7 +869,6 @@
 		</Placemark>
 		<Placemark>
 			<name>45</name>
-			<visibility>0</visibility>
 			<description>Malaysia, city, plastics, 2018, C4Center
 </description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
@@ -981,7 +885,6 @@
 		</Placemark>
 		<Placemark>
 			<name>45</name>
-			<visibility>0</visibility>
 			<description>Malaysia, city, plastics, 2020, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -997,7 +900,6 @@
 		</Placemark>
 		<Placemark>
 			<name>46</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2014, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1013,7 +915,6 @@
 		</Placemark>
 		<Placemark>
 			<name>46</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2015, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1029,7 +930,6 @@
 		</Placemark>
 		<Placemark>
 			<name>46</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2018, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1045,7 +945,6 @@
 		</Placemark>
 		<Placemark>
 			<name>47</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2015, C4Center
 </description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
@@ -1062,7 +961,6 @@
 		</Placemark>
 		<Placemark>
 			<name>47</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2018, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1078,7 +976,6 @@
 		</Placemark>
 		<Placemark>
 			<name>48</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2018, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1094,7 +991,6 @@
 		</Placemark>
 		<Placemark>
 			<name>50</name>
-			<visibility>0</visibility>
 			<description>Malaysia, informal, plastics, 2021, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1110,7 +1006,6 @@
 		</Placemark>
 		<Placemark>
 			<name>51</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2014, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1126,7 +1021,6 @@
 		</Placemark>
 		<Placemark>
 			<name>51</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2015, C4Center
 </description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
@@ -1143,7 +1037,6 @@
 		</Placemark>
 		<Placemark>
 			<name>51</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2018, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1159,7 +1052,6 @@
 		</Placemark>
 		<Placemark>
 			<name>51</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2018, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1175,7 +1067,6 @@
 		</Placemark>
 		<Placemark>
 			<name>51</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2018, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1191,7 +1082,6 @@
 		</Placemark>
 		<Placemark>
 			<name>51</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2018, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1207,7 +1097,6 @@
 		</Placemark>
 		<Placemark>
 			<name>51</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2019, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1223,7 +1112,6 @@
 		</Placemark>
 		<Placemark>
 			<name>51</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2019, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1239,7 +1127,6 @@
 		</Placemark>
 		<Placemark>
 			<name>51</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2020, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1255,7 +1142,6 @@
 		</Placemark>
 		<Placemark>
 			<name>52</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2015, C4Center
 </description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
@@ -1272,7 +1158,6 @@
 		</Placemark>
 		<Placemark>
 			<name>52</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2016, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1288,7 +1173,6 @@
 		</Placemark>
 		<Placemark>
 			<name>52</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2014, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1304,7 +1188,6 @@
 		</Placemark>
 		<Placemark>
 			<name>52</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2015, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1320,7 +1203,6 @@
 		</Placemark>
 		<Placemark>
 			<name>52</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2016, C4Center
 </description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
@@ -1337,7 +1219,6 @@
 		</Placemark>
 		<Placemark>
 			<name>52</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2017, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1353,7 +1234,6 @@
 		</Placemark>
 		<Placemark>
 			<name>52</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2018, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1369,7 +1249,6 @@
 		</Placemark>
 		<Placemark>
 			<name>53</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2016, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1385,7 +1264,6 @@
 		</Placemark>
 		<Placemark>
 			<name>53</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2017, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1401,7 +1279,6 @@
 		</Placemark>
 		<Placemark>
 			<name>53</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2018, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1417,7 +1294,6 @@
 		</Placemark>
 		<Placemark>
 			<name>53</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2018, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1433,7 +1309,6 @@
 		</Placemark>
 		<Placemark>
 			<name>53</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2019, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1449,7 +1324,6 @@
 		</Placemark>
 		<Placemark>
 			<name>53</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2020, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1465,7 +1339,6 @@
 		</Placemark>
 		<Placemark>
 			<name>53</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2021, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1481,7 +1354,6 @@
 		</Placemark>
 		<Placemark>
 			<name>55</name>
-			<visibility>0</visibility>
 			<description>Malaysia, informal, plastics, 2021, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>
@@ -1497,7 +1369,6 @@
 		</Placemark>
 		<Placemark>
 			<name>57</name>
-			<visibility>0</visibility>
 			<description>Malaysia, factory, plastics, 2020, C4Center</description>
 			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Polygon>

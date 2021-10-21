@@ -7,4 +7,4 @@ apw.shp <- separate(apw.shp, col = "Description", into = c("Country", "site_type
 
 apw.shp <- st_zm(apw.shp, drop = TRUE, what = "ZM")
 
-st_write(apw.shp, "apw/atlas_of_plastic.shp")
+st_write(apw.shp, "apw/atlas_of_plastic.shp", append = FALSE)

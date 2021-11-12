@@ -12,7 +12,7 @@
 rm(list = ls())
 
 # set working directory for project
-setwd("/Users/annapapp/Desktop/atlas-of-plastic-waste/gee")
+setwd("gee")
 
 ### libraries ###
 #install.packages("rgee")

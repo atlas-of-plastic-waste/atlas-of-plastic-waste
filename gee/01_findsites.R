@@ -29,7 +29,7 @@ library(geojsonio)
 library(sf)
 library(raster)
 #ee_install(py_env = "rgee") # only need to do this once 
-ee_Initialize(user = 'annapapp94@gmail.com', drive=TRUE) # if need to add GCS, need to change
+#ee_Initialize(user = 'm.gordon@yale.edu', drive=TRUE) # if need to add GCS, need to change
 
 ### geometries
 testarea <- ee$Geometry$Polygon(list(c(100.30806104215795, 5.7343542479935),c(100.25312940153295, 5.351631511547638),c(100.54976026090795, 3.741777202509949),c(101.24189893278295, 2.8753122233284727),c(101.89009229215795, 2.436332193522161),c(102.28560010465795, 3.1715298579348636),c(100.67060987028295, 6.138667549099112)))

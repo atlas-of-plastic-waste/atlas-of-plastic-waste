@@ -9,3 +9,4 @@ apw.shp <- st_zm(apw.shp, drop = TRUE, what = "ZM")
 
 st_write(apw.shp, "apw/atlas_of_plastic.shp", append = FALSE)
 
+#apw.sf <- st_read("apw", layer = "atlas_of_plastic")

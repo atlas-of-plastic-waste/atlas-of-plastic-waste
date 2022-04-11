@@ -2,6 +2,39 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>atlas_of_plastic.kml</name>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>f5ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>1affffff</color>
+		</PolyStyle>
+	</Style>
 	<Style id="s_ylw-pushpin_hl1">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -27,7 +60,17 @@
 			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin1">
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -36,7 +79,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl">
+	<Style id="s_ylw-pushpin_hl2">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -45,17 +88,17 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin">
+	<StyleMap id="m_ylw-pushpin1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin">
+	<Style id="s_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -73,7 +116,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin1">
+	<StyleMap id="m_ylw-pushpin10">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin0</styleUrl>
@@ -83,7 +126,26 @@
 			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin_hl2">
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -92,40 +154,6 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>f5ffffff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>1affffff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Folder>
 		<name>Atlas of Plastic Waste</name>
 		<open>1</open>
@@ -1588,7 +1616,7 @@
 		<Placemark>
 			<name>59</name>
 			<description>Malaysia, informal, mixed, 2019, Anna and Matt</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1603,7 +1631,7 @@
 		<Placemark>
 			<name>60</name>
 			<description>Malaysia, informal, mixed, 2019, Anna and Matt</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1618,7 +1646,7 @@
 		<Placemark>
 			<name>61</name>
 			<description>Malaysia, informal, mixed, 2019, Anna and Matt</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1633,7 +1661,7 @@
 		<Placemark>
 			<name>62</name>
 			<description>Malaysia, informal, mixed, 2014, Anna and Matt</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1648,7 +1676,7 @@
 		<Placemark>
 			<name>62</name>
 			<description>Malaysia, informal, mixed, 2015, Anna and Matt</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1664,7 +1692,7 @@
 			<name>63</name>
 			<visibility>0</visibility>
 			<description>Thailand, informal, plastics, 2014, APW submission - Anneli Alatalo Paulsen</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1680,7 +1708,7 @@
 			<name>63</name>
 			<visibility>0</visibility>
 			<description>Thailand, informal, plastics, 2015, APW submission - Anneli Alatalo Paulsen</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1697,7 +1725,7 @@
 			<visibility>0</visibility>
 			<open>1</open>
 			<description>Thailand, informal, plastics, 2018, APW submission - Anneli Alatalo Paulsen</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1713,7 +1741,7 @@
 			<name>63</name>
 			<open>1</open>
 			<description>Thailand, informal, plastics, 2019, APW submission - Anneli Alatalo Paulsen</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1729,7 +1757,7 @@
 			<name>63</name>
 			<open>1</open>
 			<description>Thailand, informal, plastics, 2020, APW submission - Anneli Alatalo Paulsen</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1744,7 +1772,7 @@
 		<Placemark>
 			<name>64</name>
 			<description>Colombia, city, mixed, 2015, APW submission - placido silva</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1759,7 +1787,7 @@
 		<Placemark>
 			<name>66</name>
 			<description>Indonesia, factory, mixed, 2021, APW submission - Yuyun Ismawati</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1774,7 +1802,7 @@
 		<Placemark>
 			<name>65</name>
 			<description>Indonesia, factory, mixed, 2021, APW submission - Yuyun Ismawati</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1789,7 +1817,7 @@
 		<Placemark>
 			<name>67</name>
 			<description>Indonesia, factory, mixed, 2021, APW submission - Yuyun Ismawati</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1805,7 +1833,7 @@
 			<name>68</name>
 			<visibility>0</visibility>
 			<description>Romania, informal, mixed, 2018, APW submission - Sergiu Petcu</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1821,7 +1849,7 @@
 			<name>68</name>
 			<visibility>0</visibility>
 			<description>Romania, informal, mixed, 2016, APW submission - Sergiu Petcu</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1838,7 +1866,7 @@
 			<visibility>0</visibility>
 			<open>1</open>
 			<description>Romania, informal, mixed, 2017, APW submission - Sergiu Petcu</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1853,7 +1881,7 @@
 		<Placemark>
 			<name>68</name>
 			<description>Romania, informal, mixed, 2020, APW submission - Sergiu Petcu</description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1869,7 +1897,7 @@
 			<name>69</name>
 			<visibility>0</visibility>
 			<description>Turkey, informal, mixed, 2021, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1883,9 +1911,8 @@
 		</Placemark>
 		<Placemark>
 			<name>70</name>
-			<description>Turkey, factory, plastics, 2021, APW submission - Krista Shennum
-</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<description>Turkey, factory, plastics, 2021, APW submission - Krista Shennum</description>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1900,7 +1927,7 @@
 		<Placemark>
 			<name>71</name>
 			<description>Turkey, factory, plastics, 2021, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1915,7 +1942,7 @@
 		<Placemark>
 			<name>72</name>
 			<description>Turkey, factory, plastics, 2021, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1930,7 +1957,7 @@
 		<Placemark>
 			<name>73</name>
 			<description>Turkey, factory, plastics, 2021, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1945,7 +1972,7 @@
 		<Placemark>
 			<name>74</name>
 			<description>Turkey, city, plastics, 2021, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1960,7 +1987,7 @@
 		<Placemark>
 			<name>75</name>
 			<description>Turkey, informal, mixed, 2021, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1976,7 +2003,7 @@
 			<name>76</name>
 			<visibility>0</visibility>
 			<description>Turkey, informal, plastics, 2018, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1992,7 +2019,7 @@
 			<name>76</name>
 			<visibility>0</visibility>
 			<description>Turkey, informal, plastics, 2019, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2007,7 +2034,7 @@
 		<Placemark>
 			<name>76</name>
 			<description>Turkey, informal, plastics, 2020, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2023,7 +2050,7 @@
 			<name>76</name>
 			<open>1</open>
 			<description>Turkey, informal, plastics, 2021, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2039,7 +2066,7 @@
 			<name>77</name>
 			<visibility>0</visibility>
 			<description>Turkey, informal, plastics, 2021, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2056,7 +2083,7 @@
 			<visibility>0</visibility>
 			<open>1</open>
 			<description>Turkey, informal, plastics, 2020, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2072,7 +2099,7 @@
 			<name>77</name>
 			<visibility>0</visibility>
 			<description>Turkey, informal, plastics, 2017, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2089,7 +2116,7 @@
 			<visibility>0</visibility>
 			<open>1</open>
 			<description>Turkey, informal, plastics, 2018, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2105,7 +2132,7 @@
 			<name>77</name>
 			<visibility>0</visibility>
 			<description>Turkey, informal, plastics, 2019, APW submission - Krista Shennum</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2121,7 +2148,7 @@
 			<name>78</name>
 			<visibility>0</visibility>
 			<description>Turkey, factory, plastics, 2014, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2138,7 +2165,7 @@
 			<visibility>0</visibility>
 			<open>1</open>
 			<description>Turkey, factory, plastics, 2015, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2155,7 +2182,7 @@
 			<visibility>0</visibility>
 			<open>1</open>
 			<description>Turkey, factory, plastics, 2016, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2171,7 +2198,7 @@
 			<name>78</name>
 			<open>1</open>
 			<description>Turkey, factory, plastics, 2017, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2187,7 +2214,7 @@
 			<name>78</name>
 			<open>1</open>
 			<description>Turkey, factory, plastics, 2018, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2203,7 +2230,7 @@
 			<name>78</name>
 			<open>1</open>
 			<description>Turkey, factory, plastics, 2019, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2219,7 +2246,7 @@
 			<name>78</name>
 			<open>1</open>
 			<description>Turkey, factory, plastics, 2020, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2234,7 +2261,7 @@
 		<Placemark>
 			<name>79</name>
 			<description>Turkey, informal, plastics, 2021, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2249,7 +2276,7 @@
 		<Placemark>
 			<name>80</name>
 			<description>Turkey, informal, plastics, 2021, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2265,7 +2292,7 @@
 			<name>80</name>
 			<open>1</open>
 			<description>Turkey, informal, plastics, 2020, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2281,7 +2308,7 @@
 			<name>81</name>
 			<visibility>0</visibility>
 			<description>Turkey, informal, plastics, 2021, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2298,7 +2325,7 @@
 			<visibility>0</visibility>
 			<open>1</open>
 			<description>Turkey, informal, plastics, 2020, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2315,7 +2342,7 @@
 			<visibility>0</visibility>
 			<open>1</open>
 			<description>Turkey, informal, plastics, 2019, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2332,7 +2359,7 @@
 			<visibility>0</visibility>
 			<open>1</open>
 			<description>Turkey, informal, plastics, 2018, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2349,7 +2376,7 @@
 			<visibility>0</visibility>
 			<open>1</open>
 			<description>Turkey, informal, plastics, 2017, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2366,7 +2393,7 @@
 			<visibility>0</visibility>
 			<open>1</open>
 			<description>Turkey, informal, plastics, 2016, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2382,7 +2409,7 @@
 			<name>81</name>
 			<open>1</open>
 			<description>Turkey, informal, plastics, 2015, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2398,13 +2425,28 @@
 			<name>81</name>
 			<open>1</open>
 			<description>Turkey, informal, plastics, 2014, Greenpeace</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
 							35.21140683097796,37.04866559782218,0 35.21143125066322,37.04862252005272,0 35.21157803735634,37.04864347428158,0 35.21175816793925,37.04875718855982,0 35.21162255040417,37.04876588008639,0 35.21149815793236,37.04870086283184,0 35.21140683097796,37.04866559782218,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>82</name>
+			<description>Turkey, informal, plastics, 2022, Dr. Me Mo (Twitter)</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							34.76011699865994,36.88983817904617,0 34.76019449961677,36.88972744261381,0 34.76031983490616,36.88976056338311,0 34.76024459375943,36.88988121770338,0 34.76011699865994,36.88983817904617,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>

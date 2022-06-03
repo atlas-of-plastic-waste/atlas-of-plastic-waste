@@ -2,18 +2,10 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>atlas_of_plastic.kml</name>
-	<Style id="s_ylw-pushpin1">
+	<open>1</open>
+	<Style id="s_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -35,42 +27,7 @@
 			<color>1affffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>f5ffffff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>1affffff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin">
+	<Style id="s_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -79,6 +36,16 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="s_ylw-pushpin_hl2">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -88,19 +55,18 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin0">
+	<Style id="s_ylw-pushpin01">
 		<IconStyle>
 			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -116,29 +82,47 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin10">
+	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
-		</Pair>
-	</StyleMap>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin2">
 		<IconStyle>
 			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -154,6 +138,51 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>f5ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>1affffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder>
 		<name>Atlas of Plastic Waste</name>
 		<open>1</open>
@@ -1616,7 +1645,7 @@
 		<Placemark>
 			<name>59</name>
 			<description>Malaysia, informal, mixed, 2019, Anna and Matt</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1631,7 +1660,7 @@
 		<Placemark>
 			<name>60</name>
 			<description>Malaysia, informal, mixed, 2019, Anna and Matt</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1646,7 +1675,7 @@
 		<Placemark>
 			<name>61</name>
 			<description>Malaysia, informal, mixed, 2019, Anna and Matt</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1661,7 +1690,7 @@
 		<Placemark>
 			<name>62</name>
 			<description>Malaysia, informal, mixed, 2014, Anna and Matt</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1676,7 +1705,7 @@
 		<Placemark>
 			<name>62</name>
 			<description>Malaysia, informal, mixed, 2015, Anna and Matt</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1692,7 +1721,7 @@
 			<name>63</name>
 			<visibility>0</visibility>
 			<description>Thailand, informal, plastics, 2014, APW submission - Anneli Alatalo Paulsen</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1708,7 +1737,7 @@
 			<name>63</name>
 			<visibility>0</visibility>
 			<description>Thailand, informal, plastics, 2015, APW submission - Anneli Alatalo Paulsen</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1725,7 +1754,7 @@
 			<visibility>0</visibility>
 			<open>1</open>
 			<description>Thailand, informal, plastics, 2018, APW submission - Anneli Alatalo Paulsen</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1741,7 +1770,7 @@
 			<name>63</name>
 			<open>1</open>
 			<description>Thailand, informal, plastics, 2019, APW submission - Anneli Alatalo Paulsen</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1757,7 +1786,7 @@
 			<name>63</name>
 			<open>1</open>
 			<description>Thailand, informal, plastics, 2020, APW submission - Anneli Alatalo Paulsen</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1772,7 +1801,7 @@
 		<Placemark>
 			<name>64</name>
 			<description>Colombia, city, mixed, 2015, APW submission - placido silva</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1787,7 +1816,7 @@
 		<Placemark>
 			<name>66</name>
 			<description>Indonesia, factory, mixed, 2021, APW submission - Yuyun Ismawati</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1802,7 +1831,7 @@
 		<Placemark>
 			<name>65</name>
 			<description>Indonesia, factory, mixed, 2021, APW submission - Yuyun Ismawati</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1817,7 +1846,7 @@
 		<Placemark>
 			<name>67</name>
 			<description>Indonesia, factory, mixed, 2021, APW submission - Yuyun Ismawati</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1833,7 +1862,7 @@
 			<name>68</name>
 			<visibility>0</visibility>
 			<description>Romania, informal, mixed, 2018, APW submission - Sergiu Petcu</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1849,7 +1878,7 @@
 			<name>68</name>
 			<visibility>0</visibility>
 			<description>Romania, informal, mixed, 2016, APW submission - Sergiu Petcu</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1866,7 +1895,7 @@
 			<visibility>0</visibility>
 			<open>1</open>
 			<description>Romania, informal, mixed, 2017, APW submission - Sergiu Petcu</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1881,7 +1910,7 @@
 		<Placemark>
 			<name>68</name>
 			<description>Romania, informal, mixed, 2020, APW submission - Sergiu Petcu</description>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2447,6 +2476,153 @@
 					<LinearRing>
 						<coordinates>
 							34.76011699865994,36.88983817904617,0 34.76019449961677,36.88972744261381,0 34.76031983490616,36.88976056338311,0 34.76024459375943,36.88988121770338,0 34.76011699865994,36.88983817904617,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>83</name>
+			<visibility>0</visibility>
+			<description>India, formal, mixed, 2014, Matthew Gordon</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							72.56610415815777,22.9844235318035,0 72.56382368820226,22.97954143214492,0 72.56676487117052,22.97932511461794,0 72.56811976868352,22.97888139264085,0 72.56877581395349,22.97930374727642,0 72.56865661136247,22.98062403655263,0 72.56996104771254,22.98161452914068,0 72.57035995835538,22.98257455884125,0 72.56984710552776,22.98366335598155,0 72.56863756320114,22.98409593726915,0 72.56823876003808,22.98361114973858,0 72.56610415815777,22.9844235318035,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>83</name>
+			<open>1</open>
+			<description>India, formal, mixed, 2015, Matthew Gordon</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							72.56985483456853,22.98134570976976,0 72.57031039933037,22.98259426300427,0 72.56978303792923,22.98362925836053,0 72.56859483241408,22.98402625766088,0 72.56747562789997,22.9815639813762,0 72.5649731921503,22.98203278550382,0 72.56362410831329,22.97935507729468,0 72.56547778326514,22.97907482043161,0 72.56693644837945,22.9791065825486,0 72.56804545917953,22.97845847707121,0 72.56898533972996,22.97907683792917,0 72.56867392157176,22.98078480530165,0 72.56985483456853,22.98134570976976,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>83</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>India, formal, mixed, 2016, Matthew Gordon</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							72.56491468603166,22.98188170507616,0 72.56375154776048,22.97910637943246,0 72.56710603418271,22.97913207461498,0 72.56803448029581,22.9785630221371,0 72.56898039208764,22.97904345044103,0 72.56862538538226,22.98076776759858,0 72.57123389012679,22.98217625447,0 72.57117182370872,22.98259843453122,0 72.57103592668338,22.98269427373341,0 72.5709025303734,22.98285189775795,0 72.57070030392167,22.98294659848178,0 72.57019407807989,22.98323346507556,0 72.56994159768392,22.98340197457104,0 72.56830074257353,22.98351788512897,0 72.56710022923312,22.981330876435,0 72.56491468603166,22.98188170507616,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>83</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>India, formal, mixed, 2017, Matthew Gordon</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							72.56491468603166,22.98188170507616,0 72.56375154776048,22.97910637943246,0 72.56710603418271,22.97913207461498,0 72.56803448029581,22.9785630221371,0 72.56898039208764,22.97904345044103,0 72.56862538538226,22.98076776759858,0 72.57123389012679,22.98217625447,0 72.57117182370872,22.98259843453122,0 72.57124993532258,22.98291192310447,0 72.57128068988065,22.98319677124979,0 72.57114964252423,22.98377871347914,0 72.57022099605069,22.98371265292382,0 72.56994159768392,22.98340197457104,0 72.56830074257353,22.98351788512897,0 72.56710022923312,22.981330876435,0 72.56491468603166,22.98188170507616,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>83</name>
+			<visibility>0</visibility>
+			<description>India, formal, mixed, 2018, Matthew Gordon</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							72.56491468603166,22.98188170507616,0 72.56375154776048,22.97910637943246,0 72.56710603418271,22.97913207461498,0 72.56803448029581,22.9785630221371,0 72.56898039208764,22.97904345044103,0 72.56862538538226,22.98076776759858,0 72.57123389012679,22.98217625447,0 72.57117182370872,22.98259843453122,0 72.57103592668338,22.98269427373341,0 72.5709025303734,22.98285189775795,0 72.57070030392167,22.98294659848178,0 72.57019407807989,22.98323346507556,0 72.56994159768392,22.98340197457104,0 72.56830074257353,22.98351788512897,0 72.56710022923312,22.981330876435,0 72.56491468603166,22.98188170507616,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>83</name>
+			<visibility>0</visibility>
+			<description>India, formal, mixed, 2019, Matthew Gordon</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							72.56491468603166,22.98188170507616,0 72.56375154776048,22.97910637943246,0 72.56710603418271,22.97913207461498,0 72.56803448029581,22.9785630221371,0 72.56898039208764,22.97904345044103,0 72.56862538538226,22.98076776759858,0 72.57123389012679,22.98217625447,0 72.57117182370872,22.98259843453122,0 72.57179512854992,22.98341595473789,0 72.57126286763413,22.98505103945576,0 72.5703949631519,22.98506421072949,0 72.57021629570421,22.98400419435459,0 72.56994159768392,22.98340197457104,0 72.56830074257353,22.98351788512897,0 72.56710022923312,22.981330876435,0 72.56491468603166,22.98188170507616,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>83</name>
+			<visibility>0</visibility>
+			<description>India, formal, mixed, 2020, Matthew Gordon</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							72.56491468603166,22.98188170507616,0 72.56375154776048,22.97910637943246,0 72.56710603418271,22.97913207461498,0 72.56803448029581,22.9785630221371,0 72.56898039208764,22.97904345044103,0 72.56862538538226,22.98076776759858,0 72.57123389012679,22.98217625447,0 72.57117182370872,22.98259843453122,0 72.57179512854992,22.98341595473789,0 72.57126286763413,22.98505103945576,0 72.5703949631519,22.98506421072949,0 72.57021629570421,22.98400419435459,0 72.56994159768392,22.98340197457104,0 72.56830074257353,22.98351788512897,0 72.56710022923312,22.981330876435,0 72.56491468603166,22.98188170507616,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>83</name>
+			<visibility>0</visibility>
+			<description>India, formal, mixed, 2021, Matthew Gordon</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							72.56491468603166,22.98188170507616,0 72.56375154776048,22.97910637943246,0 72.56710603418271,22.97913207461498,0 72.56803448029581,22.9785630221371,0 72.56898039208764,22.97904345044103,0 72.56862538538226,22.98076776759858,0 72.57123389012679,22.98217625447,0 72.57117182370872,22.98259843453122,0 72.57179512854992,22.98341595473789,0 72.57126286763413,22.98505103945576,0 72.5703949631519,22.98506421072949,0 72.57021629570421,22.98400419435459,0 72.56994159768392,22.98340197457104,0 72.56830074257353,22.98351788512897,0 72.56710022923312,22.981330876435,0 72.56491468603166,22.98188170507616,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>83</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description>India, formal, mixed, 2022, Matthew Gordon</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							72.56491468603166,22.98188170507616,0 72.56375154776048,22.97910637943246,0 72.56710603418271,22.97913207461498,0 72.56803448029581,22.9785630221371,0 72.56898039208764,22.97904345044103,0 72.56862538538226,22.98076776759858,0 72.57123389012679,22.98217625447,0 72.57117182370872,22.98259843453122,0 72.57179512854992,22.98341595473789,0 72.57126286763413,22.98505103945576,0 72.5703949631519,22.98506421072949,0 72.57021629570421,22.98400419435459,0 72.56994159768392,22.98340197457104,0 72.56830074257353,22.98351788512897,0 72.56710022923312,22.981330876435,0 72.56491468603166,22.98188170507616,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>

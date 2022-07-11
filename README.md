@@ -8,15 +8,15 @@ Gordon, Matthew and Anna Papp (2022). The Atlas of Plastic Waste. https://github
 
 
 Contributors:
-Earthrise - Global Plastic Watch: https://dev.plastic.watch.earthrise.media/map/
-D-waste: http://www.atlas.d-waste.com/
-Greenpeace Malaysia: https://www.greenpeace.org/malaysia/publication/1233/the-recycling-myth/
-Greenpeace Turkey: https://www.greenpeace.org/international/press-release/47759/investigation-finds-plastic-from-the-uk-and-germany-illegally-dumped-in-turkey/
-Pui Yi, Wong - C4Center: https://c4center.org/malaysia-is-not-a-garbage-dump/
-Space Detective: http://www.space-detective.com/
-Alton and Elizabeth Byers: https://www.jstor.org/stable/27003482.
-Sedat Gündoğdu: https://mikroplastik.org/#
-Tajaeli Masaki - Nipe Fagio
-Yuyun Ismawati
-Tom Aneni - SEDI
-and other anonymous individuals.
+-Earthrise - Global Plastic Watch: https://dev.plastic.watch.earthrise.media/map/
+-D-waste: http://www.atlas.d-waste.com/
+-Greenpeace Malaysia: https://www.greenpeace.org/malaysia/publication/1233/the-recycling-myth/
+-Greenpeace Turkey: https://www.greenpeace.org/international/press-release/47759/investigation-finds-plastic-from-the-uk-and-germany-illegally-dumped-in-turkey/
+-Pui Yi, Wong - C4Center: https://c4center.org/malaysia-is-not-a-garbage-dump/
+-Space Detective: http://www.space-detective.com/
+-Alton and Elizabeth Byers: https://www.jstor.org/stable/27003482.
+-Sedat Gündoğdu: https://mikroplastik.org/#
+-Tajaeli Masaki - Nipe Fagio
+-Yuyun Ismawati
+-Tom Aneni - SEDI
+-and other anonymous individuals.

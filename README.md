@@ -24,4 +24,11 @@ Contributors and Data Sources:
 - Yuyun Ismawati
 - Tom Aneni - SEDI
 - Anupama Rajkumar - https://github.com/AnupamaRajkumar/LandfillDetection_SemanticSegmentation
+- Antonio Vazquez Brust - https://arxiv.org/abs/2110.08599 
 - and other anonymous individuals.
+
+
+Sponsors:
+- The Basel Action Network
+- The Minderoo Foundation
+- The Structural Transformation and Economic Growth (STEG) programme funded by the Foreign, Commonwealth & Development Office (FCDO)

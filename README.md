@@ -13,6 +13,7 @@ Gordon, Matthew and Anna Papp (2022). The Atlas of Plastic Waste. https://github
 
 Contributors and Data Sources:
 - Earthrise - Global Plastic Watch: https://dev.plastic.watch.earthrise.media/map/
+- Climate Trace - https://climatetrace.org/ 
 - D-waste: http://www.atlas.d-waste.com/
 - Greenpeace Malaysia: https://www.greenpeace.org/malaysia/publication/1233/the-recycling-myth/
 - Greenpeace Turkey: https://www.greenpeace.org/international/press-release/47759/investigation-finds-plastic-from-the-uk-and-germany-illegally-dumped-in-turkey/

@@ -15,6 +15,7 @@ Contributors and Data Sources:
 - Earthrise - Global Plastic Watch: https://dev.plastic.watch.earthrise.media/map/
 - Climate Trace - https://climatetrace.org/ 
 - D-waste: http://www.atlas.d-waste.com/
+- Nirandjan et al (2022). "A spatially-explicit harmonized global dataset of critical infrastructure." Nature Scientific Data. https://www.nature.com/articles/s41597-022-01218-4.
 - Greenpeace Malaysia: https://www.greenpeace.org/malaysia/publication/1233/the-recycling-myth/
 - Greenpeace Turkey: https://www.greenpeace.org/international/press-release/47759/investigation-finds-plastic-from-the-uk-and-germany-illegally-dumped-in-turkey/
 - Pui Yi, Wong - C4Center: https://c4center.org/malaysia-is-not-a-garbage-dump/
@@ -25,7 +26,8 @@ Contributors and Data Sources:
 - Yuyun Ismawati
 - Tom Aneni - SEDI
 - Anupama Rajkumar - https://github.com/AnupamaRajkumar/LandfillDetection_SemanticSegmentation
-- Antonio Vazquez Brust - https://arxiv.org/abs/2110.08599 
+- Antonio Vazquez Brust - https://arxiv.org/abs/2110.08599
+- Nav Agarwal - https://www.onestepgreener.org/
 - and other anonymous individuals.
 
 
@@ -33,3 +35,4 @@ Sponsors:
 - The Basel Action Network
 - The Minderoo Foundation
 - The Structural Transformation and Economic Growth (STEG) programme funded by the Foreign, Commonwealth & Development Office (FCDO)
+- International Growth Centre

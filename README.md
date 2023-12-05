@@ -15,7 +15,7 @@ Contributors and Data Sources:
 - Earthrise - Global Plastic Watch: https://dev.plastic.watch.earthrise.media/map/
 - Climate Trace - https://climatetrace.org/ 
 - D-waste: http://www.atlas.d-waste.com/
-- Nirandjan et al (2022). "A spatially-explicit harmonized global dataset of critical infrastructure." Nature Scientific Data. https://www.nature.com/articles/s41597-022-01218-4.
+- Open Street Maps: https://wiki.openstreetmap.org/wiki/API
 - Greenpeace Malaysia: https://www.greenpeace.org/malaysia/publication/1233/the-recycling-myth/
 - Greenpeace Turkey: https://www.greenpeace.org/international/press-release/47759/investigation-finds-plastic-from-the-uk-and-germany-illegally-dumped-in-turkey/
 - Pui Yi, Wong - C4Center: https://c4center.org/malaysia-is-not-a-garbage-dump/

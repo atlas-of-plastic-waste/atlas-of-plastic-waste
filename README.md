@@ -9,6 +9,7 @@ This repository contains a shapefile of open aggregations of plastic waste betwe
 
 Cite: 
 Gordon, Matthew and Anna Papp (2024). The Atlas of Plastic Waste. https://github.com/atlas-of-plastic-waste/.
+
 Kruse C, Boyda E, Chen S, Karra K, BouNahra T, Hammer D, et al. (2023) Satellite monitoring of terrestrial plastic waste. PLoS ONE 18(1): e0278997. https://doi.org/10.1371/journal.pone.0278997
 
 
